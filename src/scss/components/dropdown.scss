@@ -1,0 +1,79 @@
+.dropserv { 
+     display: flex;
+    flex-direction: column;
+    &__main {
+        background-color: #ffffff;
+        color: #5A5A5A;
+        border: none;
+        box-shadow: none;
+        font-size: 18px;
+        line-height: 22px;
+        &:hover { 
+            box-shadow: none;
+        }
+        &:focus { 
+            box-shadow: none;
+        }
+    }
+   
+    ul { 
+        font-size: 18px;
+        line-height: 18px;
+       
+        display: flex;
+        flex-direction: column;
+    }
+  
+    
+    
+}
+
+
+.btn-secondary:focus {
+    background-color: none  !important;
+     border-color: none   !important;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.btn-secondary .btn .dropdown-toggle .text-muted .show .active .button { 
+    color: #5A5A5A;
+    background-color: #ffffff;
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
+        background-color: white;
+        color: white;
+      }
+      &:hover { 
+        box-shadow: none;
+        border: none;
+        background-color: white;
+        color: white;
+      }
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
+        background-color: white;
+        color: white;
+      }
+      &:hover { 
+        box-shadow: none;
+        border: none;
+        background-color: white;
+        color: white;
+      }
+}
+.dropdown-menu.show { 
+    border: none;
+    border-left: 2px solid #2FD066;
+    color: #E5E5E5;
+    background-color: #ffffff;
+}

@@ -1,0 +1,39 @@
+.header { 
+    margin: 0;
+    &__wrapper { 
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        
+    }
+    &__logo { 
+        width:  198px ;
+        height: 24px;
+        margin-left: 300px;
+    }
+    &__menu { 
+        
+        color: #5A5A5A;
+        margin-right: 140px;
+    }
+    ul { 
+        display:flex;
+        align-items: baseline;
+        line-height: 26px;
+    }
+    li { 
+        margin-left: 20px;
+        text-decoration: none;
+        &:hover { 
+            
+            text-decoration: none;
+        }
+        
+    }
+    
+     li:last-child a {
+        color: #2FD066;
+        font-weight: 700;
+    }
+    
+
+}

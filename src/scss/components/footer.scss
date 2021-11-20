@@ -1,0 +1,44 @@
+.footer { 
+    margin-top: 200px;
+    padding: 0;
+    &__wrapper { 
+       margin: 60px 300px;
+    }
+    &__inner { 
+        display: flex;
+        justify-content: space-between;
+    }
+    &__lower { 
+        display: flex;
+        justify-content: space-between;
+        margin-top: 38px;
+    }
+    &__lower-title { 
+        font-size: 18px;
+        line-height: 26px;
+        color: #5A5A5A;
+    }
+    &__logo { 
+        width: 198px;
+        height: 26px;
+    }
+    ul{ 
+        display: flex;
+        align-items: baseline;
+        line-height: 26px;
+    }
+    li { 
+        margin-left: 20px;
+        text-decoration: none;
+    }
+    a { 
+        text-decoration: none; 
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #5A5A5A;
+        &:hover { 
+            font-weight: 700;
+        }
+    }
+}

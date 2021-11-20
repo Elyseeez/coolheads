@@ -1,0 +1,55 @@
+.mechanic { 
+    &__wrapper { 
+        display: flex;
+        justify-content: space-between;
+        margin-left: 226px;
+    }
+    &__title { 
+        font-size: 48px;
+        line-height: 48px;
+        color: #2FD066;
+    }
+    &__subtitle {
+        margin-top: 100px;
+        font-size: 28px;
+        line-height: 37px;
+    }
+    &__lower-text { 
+        margin-top: 26px;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: left;
+
+    }
+    &__button { 
+        margin-top: 47px;
+        border: none;
+        border-top: 2px solid #2FD066;
+        border-bottom: 2px solid #2FD066;
+        width: 285px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 25px;
+        color: #2FD066;
+        background-color: #ffffff;
+    }
+    &__inner { 
+        margin-left: 121px;
+    }
+    &__inner-text {
+        display: flex;
+    }
+    &__inner-title { 
+        font-size: 18px;
+        line-height: 26px;
+    }
+    &__inner-subtitle { 
+        font-size: 18px;
+        line-height: 26px;
+        margin-left: 121px;
+    }
+    img { 
+        max-width: 752px;
+        max-height: 592px;
+    }
+}

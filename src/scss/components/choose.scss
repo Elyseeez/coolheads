@@ -1,0 +1,55 @@
+.choose { 
+    margin-top: 280px;
+    margin-left: 500px;
+    &__inner { 
+        
+        border-left: 2px solid #2FD066;
+    }
+    &__text { 
+        display: flex;
+        
+    }
+    &__title { 
+        text-transform: uppercase;
+        margin-left: 102px;
+        font-size: 24px;
+        line-height: 25px;
+        color: #2FD066;
+        font-weight: bold
+    }
+    &__subtitle { 
+        width: 387px;
+        height: 104px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+        margin-left: 130px;
+    }
+    &__lower-text { 
+        margin-top: 88px;
+        margin-left: 200px;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: left;
+    }
+    &__cars-text { 
+        margin-top: 102px;
+        margin-bottom: 54px;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: left;
+    }
+    &__divider { 
+        width: 88px;
+        height:88px;
+        border-left: 2px solid #2FD066
+    }
+    &__cars-subtext { 
+        margin-top: 54px;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: left;
+    }
+}

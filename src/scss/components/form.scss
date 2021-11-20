@@ -1,0 +1,66 @@
+.form {
+    margin-top: 250px;
+    &__text { 
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        color: #5A5A5A;
+        text-align: left;
+    }
+    &__title { 
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #2FD066;
+        text-align: center;
+    }
+    &__inner { 
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        margin-top: 50px;
+    }
+    &__inner-text { 
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &__item { 
+        margin-top: 25px;
+    }
+    &__input { 
+        width: 406px;
+        height: 64px;
+        border: 2px solid #E0E0E0;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 26px;
+        color: #5A5A5A;
+        opacity: 0.5;
+       
+        
+    }
+    &__input-last { 
+        width: 406px;
+        height: 229px;
+        border: 2px solid #E0E0E0;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 26px;
+        color: #5A5A5A;
+        opacity: 0.5;
+    }
+    &__button { 
+        margin-top: 64px;
+        background: #2FD066;
+        color: #FFFFFF;
+        width: 406px;
+        height: 64px;
+        border: none;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+}

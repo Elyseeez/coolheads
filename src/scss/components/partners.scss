@@ -1,0 +1,70 @@
+.partners { 
+    margin-top: 120px;
+    &__inner { 
+        
+    margin-left: 500px;
+    }
+    &__text { 
+        display: flex;
+    }
+    &__title { 
+        font-size: 24px;
+        line-height: 26px;
+        color: #2FD066;
+        text-transform: uppercase;  
+        font-weight: bold;
+        text-align: left;
+    }
+    &__subtitle { 
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 165px;
+        text-align: left;
+    }
+    &__button { 
+        margin-top: 72px;
+        border: none;
+        border-top: 2px solid #E0E0E0;
+        border-bottom: 2px solid #E0E0E0;
+        width: 285px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 25px;
+        color: #2FD066;
+        text-transform: uppercase;
+        display:block; 
+        background-color: #ffffff;
+
+    }
+    
+    &__cars-title { 
+        margin-top: 280px;
+        font-size: 24px;
+        line-height: 26px;
+        color: #2FD066;
+        text-transform: uppercase;  
+        font-weight: bold;
+        text-align: left;
+    }
+    &__cars-subtitle { 
+        margin-top: 36px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+    }
+    &__cars-list { 
+        display: inline-block;
+        justify-content: center;
+    }
+    ul {
+        display: flex;
+        align-items: baseline;
+        margin-top: 64px;
+    }
+    li + li{ 
+        margin-left: 45px;
+    }
+
+
+    }
+   
